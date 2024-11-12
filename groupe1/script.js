@@ -10,8 +10,8 @@ p3.addEventListener('mouseover', (e) => {
     console.log("Nicolas")
 });
 
-let p2 = document.getElementById("p2");
+let p5 = document.getElementById("p2");
 
-p2.addEventListener('mouseover', (e) => {
+p9.addEventListener('mouseover', (e) => {
     console.log("Maëlia")
 });
