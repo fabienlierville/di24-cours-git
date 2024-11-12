@@ -14,11 +14,8 @@ let sara = document.getElementById("sara");
 
 sara.addEventListener("mouseover", (e) => {
     // Générer une couleur aléatoire
-    const randomColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
-    sara.style.backgroundColor = randomColor;
-    console.log("Couleur changée :", randomColor);
+    const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+    document.body.style.backgroundColor = randomColor; // Appliquer la couleur au fond de la page entière
+    console.log("Couleur de fond changée :", randomColor);
 });
 
-sara.addEventListener("mouseout", (e) => {
-    sara.style.backgroundColor = ""; // Remet la couleur d'origine quand la souris sort
-});
