@@ -1,9 +1,17 @@
-<<<<<<< HEAD
-#br {
-    Background-color: #00aaffbb;
-=======
-#pl 
+#br
 {
-    background-color: 00aaffbb;;
->>>>>>> e9e664c1d5a47b9e8482d13aeb2e34a4b8b8bfd0
+    background-color: 00FF00;;
+
+}
+
+#li
+{
+    background-color: 0000FF;;
+
+}
+
+#la
+{
+    background-color: FF00FF;;
+
 }
