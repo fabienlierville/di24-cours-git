@@ -16,6 +16,7 @@ let p2 = document.getElementById("fael");
 p2.addEventListener('mouseover', (e) => {
   console.log("Bonjour");
 });
+
 let camille = document.getElementById("camille");
 
 camille.addEventListener('mouseover', (e) =>{
