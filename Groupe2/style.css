@@ -11,10 +11,6 @@
     color: white;
 }
 
-#p3{
-    background-color: beige;
-}
-
         /* Style de la page */
         body {
             font-family: 'Arial', sans-serif;
@@ -58,8 +54,3 @@
             transform: scale(1.05);
             background: rgba(255, 255, 255, 0.2);
         }
-
-#p3{
-    background-color: blue;
-    color: white;
-}
