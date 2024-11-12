@@ -1,5 +1,5 @@
 let pi = document.getElementById("pi")
 
-pi.addEventListener('mouseover', (0) => {
+pi.addEventListener('mouseover', (e) => {
     console.log("Bonjour")
 })
