@@ -12,6 +12,13 @@ ilyan.addEventListener("mouseover",(e) => {
 
 let sara = document.getElementById("sara");
 
-sara.addEventListener("mouseover",(e) => {
-    console.log("bonjour")
+sara.addEventListener("mouseover", (e) => {
+    // Générer une couleur aléatoire
+    const randomColor = `#${Math.floor(Math.random()*16777215).toString(16)}`;
+    sara.style.backgroundColor = randomColor;
+    console.log("Couleur changée :", randomColor);
+});
+
+sara.addEventListener("mouseout", (e) => {
+    sara.style.backgroundColor = ""; // Remet la couleur d'origine quand la souris sort
 });
