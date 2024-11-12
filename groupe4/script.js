@@ -8,5 +8,5 @@ p2.addEventListener ('mouseover', (e) => {
 });
 let p3 = document.getElementById ("p3");
 p3.addEventListener ('mouseover', (e) => {
-    console.log ("Jessica");
+    console.log ("jess");
 });
