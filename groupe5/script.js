@@ -4,8 +4,14 @@ pl.addEventListener('mouseover', (0) => {
     console.log("Bonjour")
 })
 
-let br = document.getElementById("br")
+let la = document.getElementById("la")
 
-br.addEventListener('mouseover', (0) => {
+la.addEventListener('mouseover', (0) => {
+    console.log("Bonjour")
+})
+
+let li = document.getElementById("li")
+
+li.addEventListener('mouseover', (0) => {
     console.log("Bonjour")
 })
