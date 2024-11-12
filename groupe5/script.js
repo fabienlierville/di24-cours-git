@@ -1,6 +1,6 @@
-let pl = document.getElementById("pl")
+let br = document.getElementById("pl")
 
-pl.addEventListener('mouseover', (e) => {
+br.addEventListener('mouseover', (e) => {
     console.log("Bonjour")
 })
 
