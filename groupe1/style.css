@@ -1,6 +1,4 @@
-let p2 = document.getElementById("p2");
+#p1 {
+    background-color: #00aaffbb;
 
-p2.addEventListener('mouseover', (e) -> {
-    console.log("Bonjour");
 }
-)
