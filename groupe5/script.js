@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 let br = document.getElementById("pl")
 
 br.addEventListener('mouseover', (e) => {
@@ -15,3 +15,4 @@ let li = document.getElementById("li")
 
 li.addEventListener('mouseover', (e) => {
     console.log("boudin")
+})
