@@ -7,3 +7,7 @@ let p2 = document.getElementById ("p2");
 p2.addEventListener ('mouseover', (e) => {
     console.log ("AL");
 });
+let p1 = document.getElementById ("p1");
+p1.addEventListener ('mouseover', (e) => {
+    console.log ("Vivien le patron");
+});
