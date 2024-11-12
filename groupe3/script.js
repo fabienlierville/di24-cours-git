@@ -12,6 +12,10 @@ ilyan.addEventListener("mouseover",(e) => {
 
 let sara = document.getElementById("sara");
 
-sara.addEventListener("mouseover",(e) => {
-    console.log("bonjour")
+sara.addEventListener("mouseover", (e) => {
+    // Générer une couleur aléatoire
+    const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+    document.body.style.backgroundColor = randomColor; // Appliquer la couleur au fond de la page entière
+    console.log("Couleur de fond changée :", randomColor);
 });
+
