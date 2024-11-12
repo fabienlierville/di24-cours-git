@@ -1,5 +1,5 @@
-let pl = document.getElementById("pl")
+let pi = document.getElementById("pi")
 
-pl.addEventListener('mouseover', (0) => {
+pi.addEventListener('mouseover', (0) => {
     console.log("Bonjour")
 })
