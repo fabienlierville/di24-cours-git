@@ -6,6 +6,6 @@ leo.addEventListener("mouseover",(e) => {
 
 let ilyan = document.getElementById("ilyan");
 
-leo.addEventListener("mouseover",(e) => {
+ilyan.addEventListener("mouseover",(e) => {
     console.log("bonjour")
 });
