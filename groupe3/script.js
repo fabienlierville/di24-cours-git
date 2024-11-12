@@ -7,7 +7,7 @@ leo.addEventListener("mouseover",(e) => {
 let ilyan = document.getElementById("ilyan");
 
 ilyan.addEventListener("mouseover",(e) => {
-    console.log("bonjour")
+    console.log("JAVA")
 });
 
 let sara = document.getElementById("sara");
