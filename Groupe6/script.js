@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+let p1 = document.getElementById("p1");
+=======
+let p1 = document.getElementById("p1");
+=======
 let lucas = document.getElementById("lucas");
 
 lucas.addEventListener('mouseover', (e) => (
@@ -6,10 +12,14 @@ lucas.addEventListener('mouseover', (e) => (
 
 
 let p1 = document.getElementById("camille");
+>>>>>>> 457cca00c72a58672b78008a7db1a1196012a8ce
 
 p1.addEventListener('mouseover', (e) => {
   console.log("Bonjour");
 });
+<<<<<<< HEAD
+>>>>>>> 0461c2c807e25e853c155e783368b572971879b2
+=======
 
 let p2 = document.getElementById("fael");
 
@@ -22,3 +32,4 @@ let camille = document.getElementById("camille");
 camille.addEventListener('mouseover', (e) =>{
   console.log("bonjour");
 });
+>>>>>>> 457cca00c72a58672b78008a7db1a1196012a8ce
