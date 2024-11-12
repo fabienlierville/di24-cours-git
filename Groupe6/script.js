@@ -22,4 +22,3 @@ let camille = document.getElementById("camille");
 camille.addEventListener('mouseover', (e) =>{
   console.log("bonjour");
 });
->>>>>>> 457cca00c72a58672b78008a7db1a1196012a8ce
