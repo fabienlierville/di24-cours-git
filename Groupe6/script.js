@@ -1,11 +1,9 @@
-let p1 = document.getElementById("p1");
+let lucas = document.getElementById("lucas");
 
-p1.addEventListener('mouseover', (e) => {});
-let p1 = document.getElementById("p1");
+lucas.addEventListener('mouseover', (e) => (
+    console.log("Bonjour", lucas)
+));
 
-p1.addEventListener('mouseover', (e) => {
-  console.log("Bonjour");
-});
 
 let p1 = document.getElementById("camille");
 
@@ -13,10 +11,8 @@ p1.addEventListener('mouseover', (e) => {
   console.log("Bonjour");
 });
 
+let p2 = document.getElementById("fael");
 
-
-let lucas = document.getElementById("lucas");
-
-lucas.addEventListener('mouseover', (e) => (
-    console.log("Bonjour", lucas)
-));
+p2.addEventListener('mouseover', (e) => {
+  console.log("Bonjour");
+});
