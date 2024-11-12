@@ -8,11 +8,11 @@ lucas.addEventListener('mouseover', (e) => (
 let p1 = document.getElementById("camille");
 
 p1.addEventListener('mouseover', (e) => {
-  console.log("Bonjour");
+  console.log("Bonjour Camille !");
 });
 
 let p2 = document.getElementById("fael");
 
 p2.addEventListener('mouseover', (e) => {
-  console.log("Bonjour");
+  console.log("Bonjour Fael !");
 });
